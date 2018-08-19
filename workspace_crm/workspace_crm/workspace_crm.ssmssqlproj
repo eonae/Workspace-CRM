@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="workspace_crm">
+  <Items>
+    <LogicalFolder Name="Соединения" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="DELLADMIN\SQLEXPRESS:DELLADMIN\eonae">
+          <Created>2018-08-05T21:42:26.3591639+03:00</Created>
+          <Type>SQL</Type>
+          <Server>DELLADMIN\SQLEXPRESS</Server>
+          <UserName />
+          <Authentication>Проверка подлинности Windows</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Среда Microsoft SQL Server Management Studio - запрос</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Запросы" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="CreateTables.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DELLADMIN\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DELLADMIN\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreateTables.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CreateViews.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DELLADMIN\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DELLADMIN\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreateViews.sql</FullPath>
+        </FileNode>
+        <FileNode Name="InsertData.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DELLADMIN\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DELLADMIN\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>InsertData.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Stored Procedures.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DELLADMIN\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DELLADMIN\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Stored Procedures.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Разное" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
